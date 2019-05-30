@@ -31,9 +31,7 @@
     "metro-react-native-babel-preset": "^0.51.1"
   },
   "dependencies": {
-    "lodash": "^4.17.11",
-    "prop-types": "^15.6.2",
-    "react-native": "^0.59.8",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "styled-system": "^4.2.4"
   }
 }
