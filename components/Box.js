@@ -27,5 +27,3 @@ export function createBox(StyledElement) {
     ${borderRadius}
   `;
 }
-
-export const Box = createBox(styled.div);
