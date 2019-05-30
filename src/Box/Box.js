@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { View } from 'react-native';
+import styledNative from 'styled-components/native';
 
 import {
   space,
@@ -13,7 +13,7 @@ import {
   borderColor,
   borderRadius
 } from "styled-system";
-const BoxElement = (navigator && navigator.product === 'ReactNative') ? styled(View) : styled.div;
+const BoxElement = (navigator && navigator.product === 'ReactNative') ? styledNative.View : styled.div;
 
 export const Box = BoxElement`
   ${space}
